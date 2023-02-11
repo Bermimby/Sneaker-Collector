@@ -31,7 +31,7 @@ class SneakerUpdate(UpdateView):
 
 class SneakerDelete(DeleteView):
     model = Sneaker
-    
+    success_url = '/'
 
 
 
